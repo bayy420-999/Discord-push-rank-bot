@@ -20,8 +20,7 @@ Simple self-bot for pushing discord rank on any discord server
    ```
 3. Install Python dependencies
    ```console
-   pip install coloredlogs
-   pip install discord.py-self
+   pip install -r requirements.txt
    ```
 4. Preparation done. Now you need to setup the bot configuration
 
