@@ -1,0 +1,51 @@
+# Discord push rank bot
+
+Simple self-bot for pushing discord rank on any discord server
+
+## Quick start
+
+### Installation
+
+1. Download project
+   ```console
+   git clone https://github.com/bayy420-999/Discord-push-rank-bot.git
+   ```
+2. Go to project directory
+   ```console
+   cd Discord-push-rank-bot
+   ```
+3. Install Python dependencies
+   ```console
+   pip install coloredlogs discord.py-self
+   ```
+4. Preparation done. Now you need to setup the bot configuration
+
+### Setup bot
+
+Get your discord token:
+1. Open your browser and activate developer mode
+2. Login your discord account
+3. Go to developer mode and click on XHR tab
+4. Find `login` request and click
+5. Go to `Responses` tab and find token value
+6. Copy that token
+
+Edit `config.ini` file:
+
+1. Open config.ini file with your favorites text editor
+2. Find `TOKEN` variable and paste token value that you got earlier
+3. The rest of configuration is self-explanatory so i don't need to reiterate it here
+
+> Note: you can go to wordlist directory and change the message that you want to send, each of the message should be separated by double enter
+
+### Run the bot
+
+To run the bot, just type this command in your terminal:
+
+```console
+python dc.py
+```
+
+Then go to the server that you want to run the bot in, type `gm` to start the bot
+
+> Note: You can change `START_WORD` value inside config.ini file
