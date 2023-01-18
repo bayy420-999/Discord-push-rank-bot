@@ -20,19 +20,46 @@ Simple self-bot for pushing discord rank on any discord server
    ```
 3. Install Python dependencies
    ```console
-   pip install coloredlogs discord.py-self
+   pip install coloredlogs
+   pip install discord.py-self
    ```
 4. Preparation done. Now you need to setup the bot configuration
 
 ### Setup bot
 
-Get your discord token:
+Get your discord token, different ways:
+
+**First method:**
 1. Open your browser and activate developer mode
 2. Login your discord account
 3. Go to developer mode and click on XHR tab
 4. Find `login` request and click
 5. Go to `Responses` tab and find token value
 6. Copy that token
+
+**Second method:**
+1. Make sure that you already login into your discord account
+2. Go to `Developers tool` in your browser
+3. Find javascript console, and paste code below:
+   ```javascript
+   (
+       webpackChunkdiscord_app.push(
+           [
+               [''],
+               {},
+               e => {
+                   m=[];
+                   for(let c in e.c)
+                       m.push(e.c[c])
+               }
+           ]
+       ),
+       m
+   ).find(
+       m => m?.exports?.default?.getToken !== void 0
+   ).exports.default.getToken()
+   ```
+4. Copy the result from console, that's your discord token
 
 Edit `config.ini` file:
 
