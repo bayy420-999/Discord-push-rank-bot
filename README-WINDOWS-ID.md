@@ -68,8 +68,8 @@ Cara mendapatkan token
 
 Edit file `config.ini`:
 
-1. Buka folder ``Discord-push-rank-bot`` klik kanan pada file ``config.ini`` pilih open with notepad or anything u want like vscode, notepad++,dll
-2. Cari variabel `TOKEN` dan paste nilai token tadi
+1. Buka folder ``Discord-push-rank-bot`` klik kanan pada file ``config.ini`` pilih open with notepad
+2. Cari variabel `TOKEN` dan paste nilai token tadi, lalu save
 ![notepad_1R3fvgRlj7](https://user-images.githubusercontent.com/54710482/213257561-ecfa45b2-b7d1-4e2e-ada8-70a5ded22006.png)
 
 
