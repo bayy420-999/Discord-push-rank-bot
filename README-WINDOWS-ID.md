@@ -11,7 +11,11 @@ Simple self-bot for pushing discord rank on any discord server
 * Python3
 
 ### Cara install
-cara install python (https://www.youtube.com/watch?v=4WhlfiKvXmE) **skip bagian google colab lanjut ke git*
+cara install python (https://www.youtube.com/watch?v=4WhlfiKvXmE)
+
+Perhatikan menit ``1:18`` klik **Add Python 3.x to PATH** sampai ceklis lalu pilih ``install now``
+
+*skip bagian google colab lanjut ke git*
 
 cara install git (https://www.youtube.com/watch?v=hvcXCx2jkvU)
 
